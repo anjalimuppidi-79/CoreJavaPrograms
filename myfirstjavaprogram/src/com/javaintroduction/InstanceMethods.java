@@ -1,8 +1,6 @@
 package com.javaintroduction;
 
 public class InstanceMethods {
-	
-
 
 	static void method() {
 		System.out.println("static method1");
@@ -25,14 +23,14 @@ public class InstanceMethods {
 		show();
 	}
 
-	static  {
+	static {
 		InstanceMethods f = new InstanceMethods();
 		f.cook();
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("main method is executed");
-	
+
 	}
 
 }
